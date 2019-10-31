@@ -120,5 +120,4 @@ public class PlanApproveAuthorityModel implements Serializable {
 	public void setUpdatedBy(UserModel updatedBy) {
 		this.updatedBy = updatedBy;
 	}
-
 }
