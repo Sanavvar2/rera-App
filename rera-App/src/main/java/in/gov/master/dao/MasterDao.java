@@ -7,5 +7,6 @@ import in.gov.master.model.User1;
 
 @Repository
 public interface MasterDao extends CrudRepository<User1, Long>  {
+	//test
 
 }
