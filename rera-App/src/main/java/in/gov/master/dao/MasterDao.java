@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import in.gov.master.model.User1;
 
 @Repository
-public interface UserDao extends CrudRepository<User1, Long>  {
+public interface MasterDao extends CrudRepository<User1, Long>  {
 
 	  
 	

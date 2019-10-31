@@ -9,15 +9,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import in.gov.master.model.User1;
-import in.gov.master.services.UserService;
-import in.gov.master.services.Impl.UserServiceImpl;
+import in.gov.master.services.MasterService;
+import in.gov.master.services.Impl.MasterServiceImpl;
 
 @RestController
 @RequestMapping("/user")
-public class UserController {
+public class MasterController {
 
 	@Autowired 
-	UserService userService; 
+	MasterService userService; 
 	
 	@GetMapping("/getuser")
 	public ResponseEntity<List<User1>> getAllUser(){
