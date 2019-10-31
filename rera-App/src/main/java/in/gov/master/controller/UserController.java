@@ -1,4 +1,4 @@
-package com.example.demo.master.controller;
+package in.gov.master.controller;
 
 import java.util.List;
 
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.master.model.User1;
-import com.example.demo.master.services.UserService;
-import com.example.demo.master.services.Impl.UserServiceImpl;
+import in.gov.master.model.User1;
+import in.gov.master.services.UserService;
+import in.gov.master.services.Impl.UserServiceImpl;
 
 @RestController
 @RequestMapping("/user")

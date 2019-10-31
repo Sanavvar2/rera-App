@@ -1,4 +1,4 @@
-package com.example.demo.master.model;
+package in.gov.master.model;
 
 import javax.annotation.Generated;
 import javax.persistence.Column;

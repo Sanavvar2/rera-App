@@ -1,8 +1,8 @@
-package com.example.demo.master.services;
+package in.gov.master.services;
 
 import java.util.List;
 
-import com.example.demo.master.model.User1;
+import in.gov.master.model.User1;
 
 public interface UserService {
      
